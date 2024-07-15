@@ -1,1 +1,3 @@
-FROM node:22.4.1-bookworm-slim
+FROM node:10.4.0
+
+RUN apt-get install -y imagemagick
